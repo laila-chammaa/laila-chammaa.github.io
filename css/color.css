@@ -1,0 +1,22 @@
+:root {
+  --dark-color: hsl(77.82, 100%, 34.5%);
+  --dark-rgb: 124, 176, 0;
+  --light-color: hsl(330.7, 95.56%, 91.18%);
+  --light-rgb: 254, 211, 232;
+  --scrim: rgba(124, 176, 0, 0.05);
+  --html-color: var(--dark-color);
+  --main-gradient: linear-gradient(
+    180deg,
+    #1345fa calc(var(--header-height) * 0),
+    #4568f7 calc(var(--header-height) * 0.1),
+    #6081f3 calc(var(--header-height) * 0.2),
+    #7597f0 calc(var(--header-height) * 0.3),
+    #86a9ed calc(var(--header-height) * 0.4),
+    #96bae9 calc(var(--header-height) * 0.5),
+    #a4cae6 calc(var(--header-height) * 0.6),
+    #b1d8e2 calc(var(--header-height) * 0.7),
+    #bde5de calc(var(--header-height) * 0.8),
+    #c8f2db calc(var(--header-height) * 0.9),
+    #d3fed7 calc(var(--header-height) * 1)
+  );
+}
