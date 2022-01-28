@@ -202,7 +202,7 @@ const viewItem = (caller) => {
       media = ['404', 'mp4'];
     }
 
-    if (media[1] == 'mp4') {
+    if (media[1] == 'mp4' || media[1] == 'jpg') {
       viewerVideo.style.display = 'block';
       viewerVideo.setAttribute('poster', posters[media[0]]);
       viewerVideo.setAttribute('src', videos[media[0]]);
